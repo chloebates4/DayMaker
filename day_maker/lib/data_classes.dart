@@ -9,3 +9,8 @@ class Category {
   String color;
   String name;
 }
+
+class UserData {
+  List<Event> userEvents = [];
+  List<Event> userCategories = [];
+}
