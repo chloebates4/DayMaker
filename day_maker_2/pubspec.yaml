@@ -1,5 +1,5 @@
-name: daymaker
-description: Calender application.
+name: day_maker_2
+description: A new Flutter application.
 
 version: 1.0.0+1
 
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  table_calendar: ^2.2.3
   calendar_strip: ^1.0.6
   cupertino_icons: ^0.1.2
 
@@ -18,5 +17,4 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
   uses-material-design: true
