@@ -5,12 +5,12 @@ import 'package:table_calendar/table_calendar.dart';
 void main() {
   return runApp(
     MaterialApp(
-      home: titlePage(),
+      home: TitlePage(),
     ),
   );
 }
 
-class titlePage extends StatelessWidget{
+class TitlePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
