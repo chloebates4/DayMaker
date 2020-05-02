@@ -29,7 +29,7 @@ class TitlePage extends StatelessWidget{
                       "Day Maker",
                       style: TextStyle(
                         color: Colors.grey,
-                        fontSize: 40,
+                        fontSize: 50,
                       ),
                     ),
                   ),
@@ -38,6 +38,7 @@ class TitlePage extends StatelessWidget{
                       onPressed: () {
                         Navigator.push(
                           context,
+                          // TODO: Error here, need to connect the home_page to enter page...
                           MaterialPageRoute(builder: (context) => _MyHomePageState()),
                         );
                       },
