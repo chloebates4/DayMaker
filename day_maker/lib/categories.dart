@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 
 class Categories extends StatelessWidget {
 
-  void view(int colorNumIdentifier) {
+
+  void viewColorCategory(int colorNumIdentifier) {
     // TODO: view category
   }
 
@@ -14,7 +15,7 @@ class Categories extends StatelessWidget {
       child: FlatButton(
         color: inColor,
         onPressed: () {
-          view(0); //todo: change number
+          viewColorCategory(0); //todo: change number
         },
       ),
     );
@@ -25,6 +26,10 @@ class Categories extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
+        appBar: AppBar(
+          title: Text('List of Categories'),
+          backgroundColor: Colors.cyan,
+        ),
         body: SafeArea(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -40,6 +45,7 @@ class Categories extends StatelessWidget {
             )
         ),
       ),
+
     );
   }
 }
